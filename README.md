@@ -29,10 +29,10 @@ Copy code
 node server.js
 Open your browser and go to http://localhost:3000 to view the Weekend Worrier app.
 
-Usage
+## Usage
 The application automatically determines whether it's a weekday or a weekend based on the current date. It then displays a personalized message with advice accordingly.
 
-Customization
+## Customization
 Feel free to customize the messages in the server.js file based on your preferences. You can modify the advice given for weekdays and weekends to suit your needs.
 
 javascript
