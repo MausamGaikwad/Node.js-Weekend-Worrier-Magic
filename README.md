@@ -4,6 +4,7 @@ This simple web application, named "Weekend Worrier," is built using the Express
 ## Project Structure
 * index.ejs: EJS template file for rendering the HTML content with dynamic data.
 * server.js: The main server file written in Node.js using Express.js. It calculates the current day and provides corresponding advice based on whether it's a weekday or a weekend.
+
 ## Getting Started
 Ensure you have Node.js installed on your machine.
 
@@ -44,9 +45,11 @@ if (date === 0 || date === 6) {
     type = "It's a Weekend";
     adv = "Enjoy the Weekend and Have Fun!";
 }
+
 ## Dependencies
-Express.js: Fast, unopinionated, minimalist web framework for Node.js.
-EJS: Embedded JavaScript templates for generating dynamic HTML content.
+* Express.js: Fast, unopinionated, minimalist web framework for Node.js.
+* EJS: Embedded JavaScript templates for generating dynamic HTML content.
+
 ## Author
 MAUSAM GAIKWAD
 
