@@ -40,15 +40,14 @@ The application automatically determines whether it's a weekday or a weekend bas
 ## Customization
 Feel free to customize the messages in the server.js file based on your preferences. You can modify the advice given for weekdays and weekends to suit your needs.
 
-javascript
-Copy code
+``javascript
 - let type = "It's a Weekday";
 - let adv = "It's Time to Work Harder";
 
 - if (date === 0 || date === 6) {
 -    type = "It's a Weekend";
 -   adv = "Enjoy the Weekend and Have Fun!";
-- }
+- }`
 
 ## Dependencies
 * Express.js: Fast, unopinionated, minimalist web framework for Node.js.
