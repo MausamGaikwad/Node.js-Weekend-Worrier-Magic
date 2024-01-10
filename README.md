@@ -2,8 +2,8 @@
 This simple web application, named "Weekend Worrier," is built using the Express.js framework and designed to provide a personalized message based on whether it's a weekday or a weekend. The application uses an EJS (Embedded JavaScript) template for rendering dynamic content.
 
 ## Project Structure
-index.ejs: EJS template file for rendering the HTML content with dynamic data.
-server.js: The main server file written in Node.js using Express.js. It calculates the current day and provides corresponding advice based on whether it's a weekday or a weekend.
+* index.ejs: EJS template file for rendering the HTML content with dynamic data.
+* server.js: The main server file written in Node.js using Express.js. It calculates the current day and provides corresponding advice based on whether it's a weekday or a weekend.
 ## Getting Started
 Ensure you have Node.js installed on your machine.
 
