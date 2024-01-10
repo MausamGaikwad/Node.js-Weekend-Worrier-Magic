@@ -6,29 +6,33 @@ This simple web application, named "Weekend Worrier," is built using the Express
 * server.js: The main server file written in Node.js using Express.js. It calculates the current day and provides corresponding advice based on whether it's a weekday or a weekend.
 
 ## Getting Started
-Ensure you have Node.js installed on your machine.
+1. Ensure you have Node.js installed on your machine.
 
-Clone the repository:
+2. Clone the repository:
 
 bash
 Copy code
 git clone https://github.com/your-username/weekend-worrier.git
-Navigate to the project directory:
+
+3. Navigate to the project directory:
 
 bash
 Copy code
 cd weekend-worrier
-Install dependencies:
+
+4.Install dependencies:
 
 bash
 Copy code
 npm install
-Run the application:
+
+5. Run the application:
 
 bash
 Copy code
 node server.js
-Open your browser and go to http://localhost:3000 to view the Weekend Worrier app.
+
+6. Open your browser and go to http://localhost:3000 to view the Weekend Worrier app.
 
 ## Usage
 The application automatically determines whether it's a weekday or a weekend based on the current date. It then displays a personalized message with advice accordingly.
@@ -38,13 +42,13 @@ Feel free to customize the messages in the server.js file based on your preferen
 
 javascript
 Copy code
-let type = "It's a Weekday";
-let adv = "It's Time to Work Harder";
+- let type = "It's a Weekday";
+- let adv = "It's Time to Work Harder";
 
-if (date === 0 || date === 6) {
-    type = "It's a Weekend";
-    adv = "Enjoy the Weekend and Have Fun!";
-}
+- if (date === 0 || date === 6) {
+-    type = "It's a Weekend";
+-   adv = "Enjoy the Weekend and Have Fun!";
+- }
 
 ## Dependencies
 * Express.js: Fast, unopinionated, minimalist web framework for Node.js.
